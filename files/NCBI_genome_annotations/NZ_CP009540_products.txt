@@ -1,0 +1,169 @@
+RefSeq/Protein ID	Product
+WP_000344165.1	hypothetical protein
+WP_000084556.1	hypothetical protein
+WP_000022644.1	disulfide oxidoreductase
+WP_000207867.1	metalloregulator ArsR/SmtB family transcription factor
+WP_000557401.1	RNA chaperone Hfq
+WP_000757392.1	hypothetical protein
+WP_000637338.1	Rap family tetratricopeptide repeat protein
+WP_000642777.1	helix-turn-helix domain-containing protein
+WP_000788727.1	hypothetical protein
+WP_000682818.1	hypothetical protein
+WP_000742890.1	ATP-binding protein
+WP_000070475.1	tyrosine recombinase XerS
+WP_001176696.1	RelA/SpoT domain-containing protein
+WP_000683998.1	metal-binding protein ZinT
+WP_001053939.1	IS4 family transposase
+WP_076611090.1	IS3 family transposase
+WP_076611387.1	IS3 family transposase
+WP_000073368.1	SMI1/KNR4 family protein
+WP_000107153.1	WXG100 family type VII secretion target
+WP_003171475.1	hypothetical protein
+WP_003171474.1	hypothetical protein
+WP_001293205.1	hypothetical protein
+WP_200891102.1	hypothetical protein
+WP_016125241.1	LacI family transcriptional regulator
+WP_000385111.1	helix-turn-helix domain-containing protein
+WP_000202840.1	zinc-finger domain-containing protein
+WP_001021546.1	site-specific integrase
+WP_002069698.1	helix-turn-helix transcriptional regulator
+WP_003159883.1	hypothetical protein
+WP_042442027.1	hypothetical protein
+WP_016097079.1	ArsR family transcriptional regulator
+WP_002162366.1	Rpn family recombination-promoting nuclease/putative transposase
+WP_010890024.1	anthrax toxin lethal factor
+WP_003202920.1	DUF4037 domain-containing protein
+WP_016097174.1	hypothetical protein
+WP_000215715.1	transcriptional repressor PagR
+WP_000746486.1	anthrax toxin protective antigen
+WP_000444608.1	hypothetical protein
+WP_003159771.1	spore germination protein GerXC
+WP_000831868.1	spore germination protein GerXA
+WP_011053055.1	spore germination protein GerXB
+WP_000639133.1	recombinase family protein
+WP_003165373.1	Tn3 family transposase
+WP_016086792.1	sodium:proline symporter
+WP_000787061.1	hypothetical protein
+WP_000415718.1	hypothetical protein
+WP_000388434.1	histidine kinase N-terminal domain-containing protein
+WP_000957312.1	anthrax toxin expression trans-acting transcriptional regulator AtxA
+WP_000876615.1	ATPase
+WP_002119471.1	glycerol-3-phosphate acyltransferase
+WP_076611647.1	IS1182-like element ISBth7 family transposase
+WP_000346219.1	adenine phosphoribosyltransferase
+WP_000197748.1	anthrax toxin edema factor
+WP_076611143.1	IS3 family transposase
+WP_000578140.1	hypothetical protein
+WP_000055896.1	hypothetical protein
+WP_000704426.1	hypothetical protein
+WP_003171504.1	hypothetical protein
+WP_003171502.1	hypothetical protein
+WP_076611090.1	hypothetical protein
+WP_076611343.1	IS3 family transposase
+WP_001027044.1	UDP-glucose/GDP-mannose dehydrogenase family protein
+WP_000702222.1	UTP--glucose-1-phosphate uridylyltransferase GalU
+WP_042514106.1	hyaluronan synthase HasA
+WP_076611934.1	IS3 family transposase
+WP_076611614.1	IS3 family transposase
+WP_000481542.1	phosphatase PAP2 family protein
+WP_000746296.1	S-layer homology domain-containing protein
+WP_001066876.1	hypothetical protein
+WP_000912148.1	NEAT domain-containing protein
+WP_000725577.1	thioredoxin family protein
+WP_001186855.1	DUF418 domain-containing protein
+WP_000094350.1	CPBP family intramembrane glutamic endopeptidase
+WP_042442014.1	hypothetical protein
+WP_003159747.1	DUF2325 domain-containing protein
+WP_001242516.1	hypothetical protein
+WP_000720692.1	hypothetical protein
+WP_002169760.1	lysozyme family protein
+WP_016078539.1	type IV secretion system protein
+WP_000765103.1	VirB4 family type IV secretion system protein
+WP_000891997.1	hypothetical protein
+WP_001233534.1	PrgI family protein
+WP_025986961.1	hypothetical protein
+WP_001169888.1	hypothetical protein
+WP_000502634.1	hypothetical protein
+WP_001053646.1	Rpn family recombination-promoting nuclease/putative transposase
+WP_001108749.1	DUF3854 domain-containing protein
+WP_000784218.1	hypothetical protein
+WP_016083180.1	hypothetical protein
+WP_000029697.1	hypothetical protein
+WP_017762538.1	WxL domain-containing protein
+WP_000844614.1	DUF916 and DUF3324 domain-containing protein
+WP_001212544.1	WxL domain-containing protein
+WP_000879954.1	hypothetical protein
+WP_000956358.1	hypothetical protein
+WP_000201164.1	hypothetical protein
+WP_000287087.1	type II secretion system F family protein
+WP_000264599.1	CpaF family protein
+WP_000375827.1	AAA family ATPase
+WP_002169994.1	Flp pilus assembly protein CpaB
+WP_000353184.1	hypothetical protein
+WP_000358419.1	hypothetical protein
+WP_000776681.1	hypothetical protein
+WP_003159838.1	S-layer homology domain-containing protein
+WP_001181740.1	DUF4320 family protein
+WP_001168874.1	hypothetical protein
+WP_000913729.1	hypothetical protein
+WP_001002930.1	hypothetical protein
+WP_000557418.1	hypothetical protein
+WP_016095237.1	hypothetical protein
+WP_000267219.1	hypothetical protein
+WP_000564672.1	MerR family transcriptional regulator
+WP_002194758.1	hypothetical protein
+WP_000918302.1	plasmid replication protein RepX
+WP_000837861.1	replication-relaxation family protein
+WP_001053154.1	hypothetical protein
+WP_000447316.1	DNA translocase FtsK
+WP_001104326.1	hypothetical protein
+WP_000264966.1	hypothetical protein
+WP_001978086.1	helix-turn-helix transcriptional regulator
+WP_000435025.1	hypothetical protein
+WP_010890003.1	IS4 family transposase
+WP_052495904.1	IS4-like element IS231S family transposase
+WP_000908384.1	GNAT family N-acetyltransferase
+WP_003171532.1	Abi family protein
+WP_003159795.1	hypothetical protein
+WP_010890003.1	IS4-like element IS231R family transposase
+WP_000124744.1	TetR/AcrR family transcriptional regulator
+WP_000581647.1	nucleotidyltransferase domain-containing protein
+WP_000796705.1	hypothetical protein
+WP_001259112.1	hypothetical protein
+WP_000340806.1	ATP-binding protein
+WP_000275737.1	hypothetical protein
+WP_003159767.1	hypothetical protein
+WP_000633828.1	hypothetical protein
+WP_000153861.1	hypothetical protein
+WP_000022108.1	hypothetical protein
+WP_000282355.1	nucleotidyltransferase domain-containing protein
+WP_001014144.1	group II intron reverse transcriptase/maturase
+WP_000401613.1	HEPN domain-containing protein
+WP_016095209.1	phosphoadenosine phosphosulfate reductase family protein
+WP_001118290.1	hypothetical protein
+WP_016095208.1	hypothetical protein
+WP_001006036.1	site-specific integrase
+WP_000520265.1	hypothetical protein
+WP_000827869.1	hypothetical protein
+WP_000413217.1	helix-turn-helix transcriptional regulator
+WP_001074482.1	SIR2 family protein
+WP_000793410.1	hypothetical protein
+WP_000710698.1	DUF6018 family natural product bioysynthesis protein
+WP_000425336.1	hypothetical protein
+WP_001236413.1	DUF6094 domain-containing protein
+WP_000114823.1	hypothetical protein
+WP_003161642.1	hypothetical protein
+WP_001099011.1	group II intron reverse transcriptase/maturase
+WP_000938772.1	ATP-dependent helicase
+WP_000494355.1	hypothetical protein
+WP_001024816.1	hypothetical protein
+WP_000817910.1	hypothetical protein
+WP_002194483.1	hypothetical protein
+WP_000916417.1	hypothetical protein
+WP_003159741.1	hypothetical protein
+WP_002069126.1	nuclease-related domain-containing protein
+WP_003171438.1	hypothetical protein
+WP_000914414.1	hypothetical protein
+WP_000109044.1	transposase
+WP_000520727.1	type IA DNA topoisomerase
+WP_000708136.1	thermonuclease family protein
