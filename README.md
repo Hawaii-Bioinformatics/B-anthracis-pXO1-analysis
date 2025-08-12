@@ -34,7 +34,7 @@ B-anthracis-pXO1-analysis/
 │   ├── domain_search_files/              # InterProScan domain search results, reference domains and metadata
 │   └── pXO1_plasmid_protein_sequences.fasta  # Complete set of pXO1 protein sequences used in analysis
 │
-├── notebooks/
+├── jupyter_notebooks/
 │   ├── pxo1_plasmid_affinity_analysis.ipynb   # Affinity analysis, computation of decision tree
 │   ├── pxo1_plasmid_domain_search.ipynb       # Searching domains in pXO1 plasmids from reference NERD-domain network
 │   ├── pxo1_plasmid_tsne_projection.ipynb     # t-SNE plot for plasmid protein composition
