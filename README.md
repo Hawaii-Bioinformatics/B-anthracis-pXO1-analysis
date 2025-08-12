@@ -30,102 +30,17 @@ These results show that the pXO1 plasmid contains biologically and evolutionaril
 B-anthracis-pXO1-analysis/
 │
 ├── files/
-│   ├── NCBI_genome_annotations/          # Annotated genome and plasmid protein tables
-│   ├── domain_search_files/              # Pfam domain search results and metadata
-│   └── other_input_files/                 # Additional metadata for analysis
+│   ├── NCBI_genome_annotations/          # Annotated genome and plasmid protein text files
+│   ├── domain_search_files/              # InterProScan domain search results, reference domains and metadata
+│   └── pXO1_plasmid_protein_sequences.fasta  # Complete set of pXO1 protein sequences used in analysis
 │
 ├── notebooks/
-│   ├── data_processing.ipynb             # Data loading, processing, and feature encoding
-│   ├── mutual_information.ipynb          # MI computation and feature selection
-│   ├── decision_tree_analysis.ipynb      # Decision tree training and visualization
-│   └── tsne_visualization.ipynb          # t-SNE plotting for plasmid protein content
-│
-├── scripts/
-│   ├── load_annotations.py
-│   ├── compute_mutual_information.py
-│   ├── plot_decision_tree.py
-│   └── plot_tsne.py
-│
+│   ├── pxo1_plasmid_affinity_analysis.ipynb   # Affinity analysis, computation of decision tree
+│   ├── pxo1_plasmid_domain_search.ipynb       # Searching domains in pXO1 plasmids from reference NERD-domain network
+│   ├── pxo1_plasmid_tsne_projection.ipynb     # t-SNE plot for plasmid protein composition
+│    
 └── README.md
 ```
-
----
-
-## Analysis Workflow
-
-The repository is organized into **four main steps**:
-
-### **1. Load and Encode pXO1 Protein Composition**
-- Parse NCBI genome annotation files to extract protein presence/absence for each plasmid.
-- One-hot encode plasmid protein profiles for downstream analysis.
-
-### **2. Identify Lineage-informative Proteins**
-- Apply **Mutual Information (MI)** scoring to quantify the discriminative power of each protein for sublineage classification.
-- Filter for MI > 0.1.
-
-### **3. Build and Interpret Decision Tree**
-- Train a **Decision Tree Classifier** using informative proteins.
-- Visualize decision rules that separate *B. anthracis* sublineages.
-
-### **4. Visualize Protein Composition via t-SNE**
-- Perform t-SNE dimensionality reduction on binary protein profiles.
-- Color-code points by sublineage or ancestral lineage for visual cluster assessment.
-
----
-
-## Methods & Tools
-
-- **Python Libraries**
-  - `pandas`, `numpy` — data handling
-  - `mlxtend` — association rule mining
-  - `scikit-learn` — mutual information, decision tree classifier, t-SNE
-  - `matplotlib`, `seaborn` — plotting
-- **Bioinformatics**
-  - Pfam domain search results integrated with pXO1 protein annotations
-  - Association rules refined with mutual information analysis
-
----
-
-## Example: Loading and Encoding Proteins
-
-```python
-# Load plasmid annotations
-annotation_files = glob.glob(f"{home_dir}/files/NCBI_genome_annotations/*")
-plasmids = {}
-
-for file_path in annotation_files:
-    plasmid_id = "_".join(os.path.basename(file_path).split("_")[-3:-1])
-    with open(file_path, "r") as f:
-        proteins = [
-            line.split("\t")[0]
-            for line in f
-            if not line.startswith("RefSeq/Protein ID")
-        ]
-    plasmids[plasmid_id] = proteins
-
-# Build DataFrame and one-hot encode
-plasmid_df = pd.DataFrame(
-    [(pid, prot) for pid, prots in plasmids.items() for prot in prots if prot],
-    columns=["plasmid_id", "protein_sequence_id"]
-)
-
-plasmid_sequences_encode = (
-    plasmid_df.groupby(["plasmid_id", "protein_sequence_id"])["protein_sequence_id"]
-    .count()
-    .unstack(fill_value=0)
-    .map(lambda x: 1 if x != 0 else 0)
-)
-```
-
----
-
-## Output Examples
-
-- **Decision Tree (Informative Proteins Only)**  
-  Shows how specific protein modules predict sublineage membership.
-
-- **t-SNE plots**  
-  Two-dimensional projection of plasmid protein profiles revealing clustering patterns by lineage.
 
 ---
 
@@ -135,4 +50,3 @@ If you use this code or data, please cite:
 
 > Harrigan W., La T.H.A., Dahal P., Belcaid M., Norris M.H.  
 > *Machine-learning-based characterization of Bacillus anthracis phenotypes from pXO1 plasmid proteins*  
-> *[Journal Name, Year]*
